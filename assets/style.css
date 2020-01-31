@@ -1,11 +1,13 @@
 main section{
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-auto-rows: 20vh;
+    grid-auto-rows: 50vh;
     border: solid 1px black;
 }
 
 .box1{
+    background-color: black;
+    color: white;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -14,6 +16,10 @@ main section{
 }
 
 .box2{
+    background-image: url("https://uploads-ssl.webflow.com/584f09eadce423111be98f55/5c9ab9b194b20fb9b0eb0569_Qantas.jpg");
+    background-position: 100% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -22,6 +28,9 @@ main section{
 }
 
 .box3{
+    background-image: url("https://uploads-ssl.webflow.com/584f09eadce423111be98f55/5cc011ec8527e930fb397d97_Opal%20Tile.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -30,6 +39,10 @@ main section{
 }
 
 .box4{
+    background-image: url("https://uploads-ssl.webflow.com/584f09eadce423111be98f55/5864860c660c5f57392f8651_CrownImageHeader.jpg");
+    background-position: 100% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
@@ -37,6 +50,8 @@ main section{
     border: solid 1px black;
 }
 .box5{
+    background-image: url("https://uploads-ssl.webflow.com/584f09eadce423111be98f55/58f5965f4f7ec82b19b362bf_SafeTile4.jpg");
+    background-size: cover;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 4;

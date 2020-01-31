@@ -7,7 +7,7 @@ main section{
 
 .box1{
     background-color: black;
-    color: white;
+    color: #e1c580;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -24,13 +24,13 @@ main section{
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
-    border: solid 1px black;
+    
 }
 
 .box3{
     background-image: url("https://uploads-ssl.webflow.com/584f09eadce423111be98f55/5cc011ec8527e930fb397d97_Opal%20Tile.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -49,6 +49,7 @@ main section{
     grid-row-end: 4;
     border: solid 1px black;
 }
+
 .box5{
     background-image: url("https://uploads-ssl.webflow.com/584f09eadce423111be98f55/58f5965f4f7ec82b19b362bf_SafeTile4.jpg");
     background-size: cover;

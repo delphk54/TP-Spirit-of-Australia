@@ -5,12 +5,12 @@ main{
 main section{
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-auto-rows: 50vh;
+    grid-auto-rows: 80vh;
    
 }
 
 .box1{
-    background-color: black;
+    
     color: #e1c580;
     grid-column-start: 1;
     grid-column-end: 2;
@@ -19,15 +19,20 @@ main section{
     
 }
 
+
 .box2{
     background-image: url("https://uploads-ssl.webflow.com/584f09eadce423111be98f55/5c9ab9b194b20fb9b0eb0569_Qantas.jpg");
-    background-position: 100% 50%;
     background-size: cover;
     background-repeat: no-repeat;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
+    background-color: rgba(0,0,0 , 2);
+    background-position: 50% 50%;
+   
+    
+    
     
 }
 
@@ -65,7 +70,7 @@ main section{
 }
 
 .grid2{
-    margin-top: 100px;
+    margin-top: 150px;
     
 }
 .box6{
@@ -112,8 +117,9 @@ main section{
 }
 
 .box10{
-    background-image: url("https://uploads-ssl.webflow.com/584f09eadce423111be98f55/58f5965f4f7ec82b19b362bf_SafeTile4.jpg");
-    background-size: cover;
+    background-image: url("https://uploads-ssl.webflow.com/584f09eadce423111be98f55/5865bfd6b154828e6313e8d4_V3-HeaderShowcase.jpg");
+    background-position:cover ;
+    background-repeat: no-repeat;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 4;

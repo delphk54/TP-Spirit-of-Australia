@@ -79,8 +79,7 @@ main section{
 }
 
 .box7{
-    background-image: url("https://uploads-ssl.webflow.com/584f09eadce423111be98f55/5c9ab9b194b20fb9b0eb0569_Qantas.jpg");
-    background-position: 100% 50%;
+    background-image: url("https://uploads-ssl.webflow.com/584f09eadce423111be98f55/5865e4159e70b4d163350d31_Carefree3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     grid-column-start: 2;
@@ -91,7 +90,7 @@ main section{
 }
 
 .box8{
-    background-image: url("https://uploads-ssl.webflow.com/584f09eadce423111be98f55/5cc011ec8527e930fb397d97_Opal%20Tile.jpg");
+    background-image: url("https://uploads-ssl.webflow.com/584f09eadce423111be98f55/58648c8c743316b605bd9fb5_FarmersMarketHeader.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     grid-column-start: 2;
@@ -102,8 +101,7 @@ main section{
 }
 
 .box9{
-    background-image: url("https://uploads-ssl.webflow.com/584f09eadce423111be98f55/5864860c660c5f57392f8651_CrownImageHeader.jpg");
-    background-position: 100% 50%;
+    background-image: url("https://uploads-ssl.webflow.com/584f09eadce423111be98f55/584f09eadce423111be98f7a_Work_Image5.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     grid-column-start: 2;

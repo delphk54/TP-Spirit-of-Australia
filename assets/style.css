@@ -1,8 +1,8 @@
 main{
-    background-color: black;
-    
-    
+    background-color: black;  
 }
+
+/* MAIN = SECTION 2GRID */
 main section{
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -22,8 +22,8 @@ h6{
     
 }
 
+/* 10 BOX POUR INSERER IMAGE EN BACKGROUND */
 .box1{
-    
     color: #e1c580;
     grid-column-start: 1;
     grid-column-end: 2;
@@ -137,6 +137,8 @@ h6{
     grid-row-end: 5;
      
  }
+
+ /* BOX 2 DIVISE EN DEUX POUR FOND SOMBRE A MOITIE ET TEXTE*/
  .box21{
     background-color: rgba(0, 0, 0, 0.7);
     width: 50%;
@@ -146,6 +148,7 @@ h6{
     padding-top: 200px;
  
 }
+/* BOX 3 DIVISE EN DEUX POUR FOND SOMBRE A MOITIE ET TEXTE*/
  .box31{
     background-color: rgba(0, 0, 0, 0.7);
     width: 50%;
@@ -154,7 +157,7 @@ h6{
     padding-left: 250px;
     
  }
- 
+ /* BOX 4 DIVISE EN DEUX POUR FOND SOMBRE A MOITIE ET TEXTE*/
  .box41{
     background-color: rgba(0, 0, 0, 0.7);
     width: 50%;
@@ -163,25 +166,28 @@ h6{
     padding-left: 250px;
     padding-top: 200px;
  }
- 
+ /* BOX 5 DIVISE EN DEUX POUR FOND SOMBRE A MOITIE ET TEXTE*/
  .box51{
     background-color: rgba(0, 0, 0, 0.7);
     width: 50%;
     height: 584px;
     text-align: center;
     padding-left: 250px;
-   
  }
-
+/* CROIX DOREE */
 #croix2{
     display: block;
     text-align: center; 
     margin-top: 200px;
 }
+
+/* EFFET AU SURVOL CROIX A DROITE */
 #croix:hover{
     transform: scale(1.4);
     transition: transform .6s;
 }
+
+/* EFFET AU SURVOL CROIX A GAUCHE */
 #croix2:hover{
     transform: scale(1.4);
     transition: transform .6s;
@@ -221,15 +227,19 @@ p{
     text-align: center;
     font-size: 10px;
 }
+
+/* EFFET AU SURVOL ICONES */
 #icones:hover{
-    
     transform: scale(1.4);
     transition: transform .6s;
 }
+
+/* EFFET AU SURVOL IN ET BE */ 
 #in-be:hover{
     transform: scale(1.4);
     transition: transform .6s;
 }
+/* EFFET AU SURVOL LOGO */
 #logo:hover{
     transform: scale(1.4);
     transition: transform .6s;

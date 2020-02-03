@@ -29,12 +29,6 @@ main section{
     grid-row-start: 1;
     grid-row-end: 2;
     
-   
-    filter: grayscale(1);
-    width: 750px;
-    height: 100%;
-   
-    
     
 }
 
@@ -129,3 +123,17 @@ main section{
     grid-row-end: 5;
     
 }
+.box21 h1{
+    align-items: center;
+    color: white;
+    margin-top: 200px;
+    padding-left: 200px;
+   
+ 
+  
+ }
+ .box21{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 50%;
+    height: 520px;
+ }

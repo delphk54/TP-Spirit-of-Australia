@@ -230,4 +230,7 @@ p{
     transform: scale(1.4);
     transition: transform .6s;
 }
-
+#logo:hover{
+    transform: scale(1.4);
+    transition: transform .6s;
+}

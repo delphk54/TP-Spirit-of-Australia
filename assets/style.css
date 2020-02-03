@@ -1,6 +1,6 @@
 main{
     background-color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
     
 }
 main section{
@@ -14,9 +14,12 @@ h1{
     display: flex;
     text-align: center;
     color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
 }
 h6{
     color: #e1c580;
+    
 }
 
 .box1{
@@ -33,6 +36,7 @@ h6{
 .box2{
     background-image: url("https://uploads-ssl.webflow.com/584f09eadce423111be98f55/5c9ab9b194b20fb9b0eb0569_Qantas.jpg");
     background-size: cover;
+    background-position: 50%;
     background-repeat: no-repeat;
     grid-column-start: 2;
     grid-column-end: 3;
@@ -175,10 +179,44 @@ h6{
     margin-top: 200px;
 }
 #croix:hover{
-    transform: scale(1.2);
+    transform: scale(1.4);
     transition: transform .6s;
 }
 #croix2:hover{
-    transform: scale(1.2);
+    transform: scale(1.4);
     transition: transform .6s;
+}
+#logo{
+    padding-left: 80px;
+   margin-bottom: 100px;
+
+}
+#icones{
+    size: 4px;
+    margin-bottom: 100px;
+}
+#icones a {
+    
+    color: white;
+    padding-left: 80px;
+   
+    
+}  
+#in-be a{
+
+    color: white;
+    margin-left: 110px;
+    justify-content: space-between;
+   
+} 
+#trait{
+    margin-bottom: 10px;
+   margin-left: 80px;
+    background-color:white;
+    height: 1px;
+    width: 60%;
+}
+p{
+    text-align: center;
+    font-size: 10px;
 }

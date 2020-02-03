@@ -1,5 +1,5 @@
 main{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
     background-color: black;
 }
 
@@ -8,6 +8,14 @@ main section{
     grid-template-columns: 1fr 4fr;
     grid-auto-rows: 60vh;
    
+}
+
+h1{
+    display: flex;
+    text-align: center;
+    color: white;
+    
+  
 }
 
 .box1{
@@ -125,13 +133,11 @@ main section{
     
 }
 .box21 h1{
-    color: white;
+   
     font-weight: 100;
     padding-top: 150px;
     padding-left: 250px;
    
- 
-  
  }
  .box21{
     background-color: rgba(0, 0, 0, 0.7);
@@ -139,8 +145,7 @@ main section{
     height: 520px;
  }
 
- .box31 h1{
-    color: white;
+ .box31 h1{color: white;
     font-weight: 100;
     padding-top: 150px;
     padding-left: 250px;
@@ -152,7 +157,7 @@ main section{
     height: 520px;
  }
  .box41 h1{
-    color: white;
+   
     font-weight: 100;
     padding-top: 200px;
     padding-left: 250px;
@@ -163,7 +168,7 @@ main section{
     height: 520px;
  }
  .box51 h1{
-    color: white;
+    
     font-weight: 100;
     padding-top: 150px;
     padding-left: 250px;
@@ -173,4 +178,3 @@ main section{
     width: 50%;
     height: 520px;
  }
- 

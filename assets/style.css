@@ -1,4 +1,5 @@
 main{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
 }
 
@@ -124,15 +125,50 @@ main section{
     
 }
 .box21 h1{
-    align-items: center;
     color: white;
-    margin-top: 200px;
-    padding-left: 200px;
+    font-weight: 100;
+    padding-top: 150px;
+    padding-left: 250px;
    
  
   
  }
  .box21{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 50%;
+    height: 520px;
+ }
+
+ .box31 h1{
+    color: white;
+    font-weight: 100;
+    padding-top: 150px;
+    padding-left: 250px;
+ }
+
+ .box31{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 50%;
+    height: 520px;
+ }
+ .box41 h1{
+    color: white;
+    font-weight: 100;
+    padding-top: 200px;
+    padding-left: 250px;
+ }
+ .box41{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 50%;
+    height: 520px;
+ }
+ .box51 h1{
+    color: white;
+    font-weight: 100;
+    padding-top: 150px;
+    padding-left: 250px;
+ }
+ .box51{
     background-color: rgba(0, 0, 0, 0.7);
     width: 50%;
     height: 520px;

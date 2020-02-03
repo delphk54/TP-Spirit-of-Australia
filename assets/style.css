@@ -14,9 +14,9 @@ h1{
     display: flex;
     text-align: center;
     color: white;
-    
-    
-  
+}
+h6{
+    color: #e1c580;
 }
 
 .box1{
@@ -137,8 +137,8 @@ h1{
     background-color: rgba(0, 0, 0, 0.7);
     width: 50%;
     height: 520px;
- }
-
+ 
+}
  .box31{
     background-color: rgba(0, 0, 0, 0.7);
     width: 50%;

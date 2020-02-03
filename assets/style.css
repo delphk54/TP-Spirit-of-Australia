@@ -193,10 +193,8 @@ h6{
     transition: transform .6s;
 }
 #logo{
-   
     padding-left: 80px;
     margin-bottom: 100px;
-
 }
 
 #icones{
@@ -251,6 +249,6 @@ p{
 }
 /* EFFET AU SURVOL LOGO */
 #logo:hover{
-    transform: scale(1.4);
+    transform: scale(1.1);
     transition: transform .6s;
 }

@@ -1,5 +1,4 @@
 main{
-   
     background-color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
@@ -15,6 +14,7 @@ h1{
     display: flex;
     text-align: center;
     color: white;
+    
     
   
 }
@@ -139,12 +139,6 @@ h1{
     height: 520px;
  }
 
- .box31 h1{
-     color: white;
-    font-weight: 100;
-    
- }
-
  .box31{
     background-color: rgba(0, 0, 0, 0.7);
     width: 50%;
@@ -166,12 +160,19 @@ h1{
     display: block;
     text-align: center; 
     margin-top: 200px;
-    
-    
-    
+ 
+     
 }
 #croix2{
     display: block;
     text-align: center; 
     margin-top: 200px;
+}
+#croix:hover{
+    transform: scale(1.2);
+    transition: transform .6s;
+}
+#croix2:hover{
+    transform: scale(1.2);
+    transition: transform .6s;
 }

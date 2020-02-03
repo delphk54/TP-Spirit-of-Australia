@@ -193,10 +193,12 @@ h6{
     transition: transform .6s;
 }
 #logo{
+   
     padding-left: 80px;
-   margin-bottom: 100px;
+    margin-bottom: 100px;
 
 }
+
 #icones{
     size: 4px;
     margin-bottom: 100px;
@@ -205,24 +207,32 @@ h6{
 #icones a {
     
     color: white;
-    padding-left: 80px;
-    
+    padding-left: 80px; 
 }  
-#in-be a{
 
+/* CHANGEMENT DE COULEUR AU SURVOL */
+#icones:hover a{
+    color: #e1c580;
+}
+#in-be a{
     color: white;
     margin-left: 110px;
     justify-content: space-between;
-    
-   
 } 
+
+/* CHANGEMENT DE COULEUR AU SURVOL */
+#in-be:hover a{
+    color: #e1c580;
+}
+
 #trait{
     margin-bottom: 10px;
-   margin-left: 80px;
+    margin-left: 80px;
     background-color:white;
     height: 1px;
     width: 60%;
 }
+
 p{
     text-align: center;
     font-size: 10px;

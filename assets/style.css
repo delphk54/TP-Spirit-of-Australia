@@ -137,32 +137,38 @@ h6{
     background-color: rgba(0, 0, 0, 0.7);
     width: 50%;
     height: 520px;
+    text-align: center;
+    padding-left: 250px;
+    padding-top: 200px;
  
 }
  .box31{
     background-color: rgba(0, 0, 0, 0.7);
     width: 50%;
     height: 520px;
+    text-align: center;
+    padding-left: 250px;
+    padding-top: 200px;
  }
  
  .box41{
     background-color: rgba(0, 0, 0, 0.7);
     width: 50%;
     height: 520px;
+    text-align: center;
+    padding-left: 250px;
+    padding-top: 200px;
  }
  
  .box51{
     background-color: rgba(0, 0, 0, 0.7);
     width: 50%;
     height: 520px;
+    text-align: center;
+    padding-left: 250px;
+    padding-top: 200px;
  }
-#croix{
-    display: block;
-    text-align: center; 
-    margin-top: 200px;
- 
-     
-}
+
 #croix2{
     display: block;
     text-align: center; 

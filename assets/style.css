@@ -1,5 +1,6 @@
 main{
     background-color: black;  
+    font-weight: 100;
 }
 
 /* MAIN = SECTION 2GRID */
@@ -7,7 +8,7 @@ main section{
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-auto-rows: 60vh;
-   
+
 }
 
 h1{
@@ -23,6 +24,7 @@ h6{
 
 /* 10 BOX POUR INSERER IMAGE EN BACKGROUND */
 .box1{
+    position: fixed;
     color: #e1c580;
     grid-column-start: 1;
     grid-column-end: 2;
@@ -192,7 +194,7 @@ h6{
     transition: transform .6s;
 }
 #logo{
-    padding-left: 80px;
+    padding-left: 90px;
     margin-bottom: 100px;
 }
 
@@ -217,6 +219,12 @@ h6{
 #icones:hover a{
     color: #e1c580;
 }
+#icones2:hover a{
+    color: #e1c580;
+}
+#icones3:hover a{
+    color: #e1c580;
+}
 #in-be a{
     color: white;
     margin-left: 110px;
@@ -224,7 +232,7 @@ h6{
     
 } 
 #in-be{
-    padding-top: 100px;
+    padding-top: 90px;
 }
 
 /* CHANGEMENT DE COULEUR AU SURVOL */
@@ -232,9 +240,9 @@ h6{
     color: #e1c580;
 }
 
-#trait{
-    margin-bottom: 10px;
-    margin-left: 80px;
+#trait{  
+    margin-left: 90px;
+    margin-top: 50px;
     background-color:white;
     height: 1px;
     width: 60%;
@@ -242,6 +250,7 @@ h6{
 
 p{
     text-align: center;
+    margin-left: 50px;
     font-size: 10px;
 }
 

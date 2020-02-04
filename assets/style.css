@@ -14,8 +14,7 @@ h1{
     display: flex;
     text-align: center;
     color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h6{
     color: #e1c580;
@@ -197,16 +196,22 @@ h6{
     margin-bottom: 100px;
 }
 
-#icones{
-    size: 4px;
-    margin-bottom: 100px;
-    
-}
+
 #icones a {
     
     color: white;
     padding-left: 80px; 
-}  
+} 
+
+#icones2 a{
+    color: white;
+    padding-left: 80px; 
+} 
+
+#icones3 a{
+    color: white;
+    padding-left: 80px; 
+}
 
 /* CHANGEMENT DE COULEUR AU SURVOL */
 #icones:hover a{
@@ -216,7 +221,11 @@ h6{
     color: white;
     margin-left: 110px;
     justify-content: space-between;
+    
 } 
+#in-be{
+    padding-top: 100px;
+}
 
 /* CHANGEMENT DE COULEUR AU SURVOL */
 #in-be:hover a{
@@ -238,6 +247,16 @@ p{
 
 /* EFFET AU SURVOL ICONES */
 #icones:hover{
+    transform: scale(1.4);
+    transition: transform .6s;
+}
+
+#icones2:hover{
+    transform: scale(1.4);
+    transition: transform .6s;
+}
+
+#icones3:hover{
     transform: scale(1.4);
     transition: transform .6s;
 }
